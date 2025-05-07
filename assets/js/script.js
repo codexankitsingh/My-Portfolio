@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Ankit singh";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -207,7 +207,7 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 const srtop = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 1000,
+    duration: 100,
     reset: true
 });
 
@@ -237,14 +237,15 @@ srtop.reveal('.skills .container', { interval: 200 });
 srtop.reveal('.skills .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+
+// srtop.reveal('.education .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experience .timeline', { delay: 100 });
+srtop.reveal('.experience .timeline .container', { interval: 300 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });

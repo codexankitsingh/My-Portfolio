@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none; border: none;
   text-transform:capitalize;
-  transition: all .2s linear;
+  transition: all .1s linear;
 }
 html{
   font-size: 62.5%;
@@ -341,9 +341,10 @@ header .navbar ul li a:hover{
   background: #ffae00;
   color: rgb(13, 0, 44);
   border-radius: 5rem;
-  transition: 1s linear;
+  transition: .2s linear;
   z-index: 1000;
-}
+} 
+
 #scroll-top.active{
   top: calc(100% - 12rem);
 }
