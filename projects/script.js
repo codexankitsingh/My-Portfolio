@@ -20,11 +20,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
+            document.title = "Projects | Portfolio Ankit kumar singh";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "return to home page";
             $("#favicon").attr("href", "/assets/images/favhand.png");
         }
     });

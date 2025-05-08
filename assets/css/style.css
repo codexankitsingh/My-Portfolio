@@ -92,6 +92,14 @@ header .logo {
   text-decoration: none;
   color: #0e2431;
 }
+
+header .logo img{
+  width: auto; /* Maintain aspect ratio */
+  height: 100%; /* Adjust height to fit the header */
+  max-height: 6.5rem; /* Ensure it doesn't exceed the header height */
+  object-fit: contain; /* Ensure the image scales without distortion */
+}
+
 header .logo i {
   font-size: 2.2rem;
 }
