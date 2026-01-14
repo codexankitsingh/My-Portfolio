@@ -335,6 +335,7 @@ header .navbar ul li a:hover {
 @media (max-width: 450px) {
   .home .btn {
     margin: 2rem 0;
+    position: relative; /* Fix overlap with social icons */
   }
   .socials {
     margin-top: 5rem;
@@ -928,7 +929,11 @@ header .navbar ul li a:hover {
     padding-right: 1rem;
   }
   .experience .content .desc h3 {
-      font-size: 1.3rem; /* Reduce experience title size */
+    font-size: 1.6rem; /* Increase experience title size */
+    font-weight: 700;
+  }
+  .experience .content .desc p {
+    font-size: 1.4rem; /* Increase experience text size (~11.2px at 50% base) */
   }
   .experience .container::after {
     font-size: 2.2rem;
