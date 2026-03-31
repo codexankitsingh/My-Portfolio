@@ -118,5 +118,49 @@
     {
         "name": "WordPress",
         "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    }    
+    },
+    {
+        "name": "FastAPI",
+        "icon": "https://img.icons8.com/color/48/000000/api-settings.png"
+    },
+    {
+        "name": "Kafka",
+        "icon": "https://img.icons8.com/color/48/000000/apache-kafka.png"
+    },
+    {
+        "name": "Redis",
+        "icon": "https://img.icons8.com/color/48/000000/redis.png"
+    },
+    {
+        "name": "LLMs",
+        "icon": "https://img.icons8.com/color/48/000000/artificial-intelligence.png"
+    },
+    {
+        "name": "BigQuery",
+        "icon": "https://img.icons8.com/color/48/000000/google-cloud.png"
+    },
+    {
+        "name": "Cassandra",
+        "icon": "https://img.icons8.com/color/48/000000/database.png"
+    },
+    {
+        "name": "GCP",
+        "icon": "https://img.icons8.com/color/48/000000/google-logo.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
+    },
+    {
+        "name": "Kubernetes",
+        "icon": "https://img.icons8.com/color/48/000000/kubernetes.png"
+    },
+    {
+        "name": "Apache Airflow",
+        "icon": "https://img.icons8.com/color/48/000000/wind.png"
+    },
+    {
+        "name": "PySpark",
+        "icon": "https://img.icons8.com/color/48/000000/lightning-bolt.png"
+    }
 ]

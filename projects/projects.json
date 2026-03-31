@@ -1,5 +1,25 @@
 [
   {
+    "name": "LedgerCore",
+    "desc": "Secure Backend Banking API processing transactions with ACID compliance and high throughput caching.",
+    "image": "project_placeholder",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/codexankitsingh",
+      "code": "https://github.com/codexankitsingh"
+    }
+  },
+  {
+    "name": "ChargeIQ",
+    "desc": "Distributed Scheduling Engine for optimized EV charging using Genetic Algorithms and Priority queues.",
+    "image": "project_placeholder",
+    "category": "algorithm",
+    "links": {
+      "view": "https://github.com/codexankitsingh",
+      "code": "https://github.com/codexankitsingh"
+    }
+  },
+  {
     "name": "My-Portfolio",
     "desc": "My portfolio website",
     "image": "project_placeholder",
